@@ -1,0 +1,168 @@
+/* Large devices */
+@media (max-width: 1199.98px) { }
+
+/* Medium devices */
+@media (max-width: 991.98px) { }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner {
+        padding-top: 20px;
+    }
+    #songs {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    #footer {
+        padding-top: 60px;
+    }
+    
+    .banner_image_overly {
+        visibility: visible;
+        opacity: 1;
+    }
+    .banner_play i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    .footer_image {
+        width: 150px;
+        height: 150px;
+    }
+    .footer_item a {
+        padding: 6px 10px;
+        margin-top: 20px;
+    }
+    .top_header_text{
+        padding: 0 !important;
+    }
+    .top_header_text h3 {
+        font-size: 20px;
+    }
+    
+    .all_play_icon i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    .single_track_card_overly {
+        background: rgba(0, 0, 0, 0.2);
+        visibility: visible;
+        opacity: 1;
+    }
+    .single_track_play i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    #bottom_bar {
+        bottom: 10px;
+    }
+    .volume{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .icon_group #auto {
+        padding-left: 15px;
+    }
+    .icon_group #shuffle {
+        padding-right: 15px;
+    }
+    .icon_group button i {
+        color: #fff;
+        font-size: 18px;
+    }
+    .icon_group .playbtnStyle {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .icon_group #next {
+        padding-left: 10px;
+    }
+    .icon_group #pre {
+        padding-right: 10px;
+    }
+    .on_track_text p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575.98px){
+    #banner {
+        padding-top: 20px;
+    }
+    #songs {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    #footer {
+        padding-top: 60px;
+    }
+    
+    .banner_image_overly {
+        visibility: visible;
+        opacity: 1;
+    }
+    .banner_play i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    .footer_image {
+        width: 150px;
+        height: 150px;
+    }
+    .footer_item a {
+        padding: 6px 10px;
+        margin-top: 20px;
+    }
+    .top_header_text{
+        padding: 0 !important;
+    }
+    .top_header_text h3 {
+        font-size: 20px;
+    }
+    
+    .all_play_icon i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    .single_track_card_overly {
+        background: rgba(0, 0, 0, 0.2);
+        visibility: visible;
+        opacity: 1;
+    }
+    .single_track_play i{
+        font-size: 40px;
+        color: #0bff30;
+    }
+    #bottom_bar {
+        bottom: 10px;
+    }
+    .volume{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .icon_group #auto{
+        display: none;
+    }
+    .icon_group #shuffle{
+        display: none;
+    }
+    .icon_group button i {
+        color: #fff;
+        font-size: 12px;
+        
+    }
+    .icon_group .playbtnStyle {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .icon_group #next {
+        padding-left: 5px;
+    }
+    .icon_group #pre {
+        padding-right: 5px;
+    }
+    .on_track_text p {
+        font-size: 12px;
+    }
+}
